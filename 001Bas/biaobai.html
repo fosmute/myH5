@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>灵川中学技术小组</title>
+    <style type="text/css">
+        body{
+            background-image: url(./image/0.jpg);
+            background-size:100% 100% ;
+            height: 100%;
+        }
+        html{height: 100%;}
+        @keyframes myfirst {
+            0% {opacity: 0}
+            25% {opacity: 100}
+           50% {opacity: 0}
+            100% {opacity: 0}
+        }
+        @keyframes mysecond {
+            0% {opacity: 0}
+            50% {opacity: 0}
+            75% {opacity: 100}
+            100% {opacity: 0}
+        }
+        h1,p{font-size: 100px;
+            position: absolute;width: 100%;
+            text-align: center;
+        }
+        #jys{
+            animation:myfirst 5s infinite;
+        }
+        #myg{
+            animation:mysecond 5s infinite;
+        }
+    </style>
+</head>
+<body>
+<audio src="wav/bgm.wav" controls="controls" autoplay="autoplay">
+</audio>
+<h1 id="jys">静夜思</h1>
+<p id="myg">床前明月光，</p>
+疑是地上霜。
+举头望明月，
+低头思故乡。
+</body>
+</html>
+
